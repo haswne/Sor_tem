@@ -6,21 +6,44 @@
     ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to Cloud9 IDE!
+افتـح ترمنـــأل وخلي
 
-To get you started, we included a small hello world application.
+sudo apt-get update 
+=========================
+ورهأَ خلي 
 
-1) Open the hello-world.html file
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes
+=========================
+ورهأَ خلي 
+=========================
+https://github.com/DrossTech/ET_DENS.git
+========================================== 
+ورهأَ خلي 
+=========================
+cd ET_DENS
+=========================
+ورهأ خلي 
+=========================
+chmod +x launch.sh
+=========================
+ورهأ خلي 
+=========================
+./launch.sh install
+=========================
+ورهأ خلي 
+=========================
+./launch.sh 
+=========================
+يطلب رقم خلي رقم البوت ?????
+مبروك عليك افضل بوت عل تلي ??
 
-2) Click on the Preview button to open a live preview pane
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+  sudo_users = {
+    171061591,
+    132038202,
+    YourID
+  }
 
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+#Dev : @j_Aa_Ff_Rr
+#Dev : @prnice1
+#Dev : @Mmed_94Bot
