@@ -20,7 +20,6 @@ do local _ = {
 	  "supergroup",
 	  "whitelist",
 	  "msg_checks",
-	  "bmv",
 	  "Hello",
 	  "me",
 	  "ET_DENS",
