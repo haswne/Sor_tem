@@ -91,7 +91,7 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'teleseed' then -- Put everything you like :)
+  if matches[1]:lower() == 'dens' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
     savelog(msg.to.id, name.." ["..msg.from.id.."] used /teleseed ")
@@ -99,7 +99,7 @@ local function run(msg, matches)
   end 
   if matches[1]:lower() == "statslist" then
     if not is_momod(msg) then
-      return "For mods only !"
+      return "لل مدراء فقط !"
     end
     local chat_id = msg.to.id
     local name = user_print_name(msg.from)
@@ -109,7 +109,7 @@ local function run(msg, matches)
   if matches[1]:lower() == "stats" then
     if not matches[2] then
       if not is_momod(msg) then
-        return "For mods only !"
+        return "لل مدراء فقط !"
       end
       if msg.to.type == 'chat' or msg.to.type == 'channel' then
 	    local receiver = get_receiver(msg)
@@ -121,9 +121,9 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "teleseed" then -- Put everything you like :)
+    if matches[2] == "dens" then -- Put everything you like :)
       if not is_admin1(msg) then
-        return "For admins only !"
+        return "لل مدراء فقط !"
       else
         return bot_stats()
       end
@@ -143,8 +143,8 @@ return {
     "^[#!/]([Ss]tats)$",
     "^[#!/]([Ss]tatslist)$",
     "^[#!/]([Ss]tats) (group) (%d+)",
-    "^[#!/]([Ss]tats) (teleseed)",
-	"^[#!/]([Tt]eleseed)"
+    "^[#!/]([Ss]tats) (dens)",
+	"^[#!/]([Dd]ens)"
     }, 
   run = run
 }
