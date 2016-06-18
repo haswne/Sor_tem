@@ -38,7 +38,7 @@ reply_msg(reply_id, S, ok_cb, false)
 end
 
 if not is_sudo(msg) then
-local S = "للمطورين فقط 😎🖕🏿"
+local S = "للدمنية فقط لاتلعب 😎🖕🏿"
 reply_msg(reply_id, S, ok_cb, false)
 end
 
