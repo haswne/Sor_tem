@@ -1,8 +1,9 @@
 do
 
-function run(msg, matches)
+local function run(msg, matches)
 local reply_id = msg['id']
-local S = [[ 
+if is_sudo(msg) and matches[1]== "اوكار" then
+local S = [[
 
 
  🤒  🕰 رفع اداري >/: رفع ادمن في المجموعة
