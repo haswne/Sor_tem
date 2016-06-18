@@ -83,6 +83,12 @@ local S = [[
 reply_msg(reply_id, S, ok_cb, false)
 end
 
+if not is_sudo(msg) then
+local S = "للمطورين فقط 😎🖕🏿"
+reply_msg(reply_id, S, ok_cb, false)
+end
+
+end
 return {
 description = "Help list", 
 usage = "Help list",
