@@ -2,7 +2,7 @@ do
 
 local function run(msg, matches)
 local reply_id = msg['id']
-if is_sudo(msg) and matches[1]== "مطور اوكار" then
+if is_sudo(msg) and matches[1]== "اوكار2" then
 local S = [[  
 � عمل جميع الاوامر بدون وضع / او !
 🏌🏌🏌🏌🏌🏌🏌🏌🏌
@@ -47,7 +47,7 @@ return {
 description = "Help list", 
 usage = "Help list",
 patterns = {
-"^(مطور اوكار)$",
+"^(2وكار)$",
 },
 run = run 
 }
