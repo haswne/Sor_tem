@@ -179,11 +179,11 @@ local function lock_group_links(msg, data, target)
   end
   local group_link_lock = data[tostring(target)]['settings']['lock_link']
   if group_link_lock == 'yes' then
-    return '😠 الروابط بالفعل مقفوله في المجموعه 🔐'
+    return '😠الروابط مقفوله سابقاا🔐'
   else
     data[tostring(target)]['settings']['lock_link'] = 'yes'
     save_data(_config.moderation.data, data)
-    return ' تم ✔️ قفل الروابط في المجموعه 🔐'
+    return 'تم قفل الروابط🔐'
   end
 end
 
@@ -193,11 +193,11 @@ local function unlock_group_links(msg, data, target)
   end
   local group_link_lock = data[tostring(target)]['settings']['lock_link']
   if group_link_lock == 'no' then
-    return '😠 الروابط بالفعل مفتوحه في المجموعه 🔓✔️'
+    return 'مفتوح سابقاأأأأ'
   else
     data[tostring(target)]['settings']['lock_link'] = 'no'
     save_data(_config.moderation.data, data)
-    return ' تم ✔️ فتح الروابط في المجموعه يمكنك الارسال الان 🔓'
+    return ' تم ✔️ فتح الروابط🔓'
   end
 end
 
@@ -210,11 +210,11 @@ local function lock_group_spam(msg, data, target)
   end
   local group_spam_lock = data[tostring(target)]['settings']['lock_spam']
   if group_spam_lock == 'yes' then
-    return '😠 مضاد السبام بالفعل مفتوح 💊🔓'
+    return '😠 مضاد السبام مقفول سابقأأأ💊🔓'
   else
     data[tostring(target)]['settings']['lock_spam'] = 'yes'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ فتح مضاد السبام 💊 🔓'
+    return 'تم ✔️ قفل مضاد السبام'
   end
 end
 
@@ -224,11 +224,11 @@ local function unlock_group_spam(msg, data, target)
   end
   local group_spam_lock = data[tostring(target)]['settings']['lock_spam']
   if group_spam_lock == 'no' then
-    return '😠 مضاد السبام بالفعيل مقفول 💊 ✔️'
+    return '😠 مضاد السبام مفتوح سابقأأأ💊 ✔️'
   else
     data[tostring(target)]['settings']['lock_spam'] = 'no'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ قفل مضاد السبام 💊 🔐'
+    return 'تم ✔️ فتح مضاد السبام�'
   end
 end
 
@@ -364,11 +364,11 @@ local function unlock_group_sticker(msg, data, target)
   end
   local group_sticker_lock = data[tostring(target)]['settings']['lock_sticker']
   if group_sticker_lock == 'no' then
-    return '😠 الملصقات بالفعل مفتوحه 🔓✔️'
+    return '😠 الملصقات بالفعل مفتوحه ✔️'
   else
     data[tostring(target)]['settings']['lock_sticker'] = 'no'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ فتح الملصقات 🔐✔️'
+    return 'تم ✔️ فتح الملصقات ✔️'
   end
 end
 
@@ -1635,7 +1635,7 @@ local function run(msg, matches)
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked contact posting")
 				return lock_group_contacts(msg, data, target)
 			end
-			if matches[2] == 'التحذير' then
+			if matches[2] == 'الكل' then
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked enabled strict settings")
 				return enable_strict_rules(msg, data, target)
 			end
@@ -1986,7 +1986,7 @@ return {
 	"^(كشف بوت)$",
 	"^(ايدي الاعضاء)$",
 	"^([Kk]icked)$",
-  "^(بلوك) (.*)",
+        "^(بلوك) (.*)",
 	"^(بلوك)",
 	"^(ترقيه سوبر)$",
 	"^(ايدي)$",
