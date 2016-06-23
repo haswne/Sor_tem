@@ -1,4 +1,9 @@
+do
 
+local function run(msg, matches)
+local reply_id = msg['id']
+if is_sudo(msg) and matches[1]== "اوكار2" then
+local S = [[  
 ➰ ترقيه سوبر : لترقيه المجموعه سوبر
 ➰الملفات : اضهار الملفات في البوت
 ➰جلب ملف : لجلب الملف 
@@ -20,3 +25,22 @@
 ➖➖➖➖➖➖➖➖➖➖
 👇🏽قــنــاة البوت🔘
 #Des : @Mmed_98📍
+]]
+reply_msg(reply_id, S, ok_cb, false)
+end
+
+if not is_sudo(msg) then
+local S = "للدمنية فقط لاتلعب 😎🖕🏿"
+reply_msg(reply_id, S, ok_cb, false)
+end
+
+end
+return {
+description = "Help list", 
+usage = "Help list",
+patterns = {
+"^(اوكار2)$",
+},
+run = run 
+}
+end
