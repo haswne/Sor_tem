@@ -1,12 +1,11 @@
 سًــــــٌورس أؤكار
-# [ASD_KARBALA](https://telegram.me/S94IQ)
+# [Sor_tem](https://telegram.me/S94IQ)
 
 
 *******************************************************************
 ```sh
 
-# Let's install the bot.
-افتـح ترمنـــأل وخلي 👇🏿 Open Terminal and vinegary
+افتـح ترمنـــأل وخلي 👇🏿 
 
 sudo apt-get update 
 ************************************************************
@@ -17,11 +16,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ************************************************************
 ورأهأَ خلي👇🏿
 **************
-git clone https://github.com/SAJJAD94/D_KAASRBALA.git
+git clone https://github.com/SAJJAD94/Sor_tem.git
 *****************************************************
 ورهأ خلي 👇🏿y
 **************************
-cd ASD_KARBALA
+cd Sor_tem
 **************************
 ورهأَ خلي👇
 **************************
