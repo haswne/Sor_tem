@@ -1,5 +1,5 @@
 do local _ = {
-  about_text = "ET_DENS\nan advanced administration bot based on TG-CLI written in Lua\n\nhttps://github.com/DrossTech/ET_DENS.git\n\nAdmins\n#Dev : @j_Aa_Ff_Rr\n#Dev : @prnice1\n#Dev : @m_m882\n\nDens channel\n#Fev : @Mmed_98\n\nDross_Tech",
+  about_text = "ET_DENS\nan advanced administration bot based on TG-CLI written in Lua\n\nhttps://github.com/DrossTech/Sor_tem.git\n\nAdmins\n#Dev : @lssui\n#Dev : @prnice1\n#Dev : @m_m882\n\nDens channel\n#Fev : @Mmed_98\n\nDross_Tech",
   disabled_channels = {
     ["channel#id1069301314"] = false
   },
@@ -21,7 +21,7 @@ do local _ = {
     "all",
     "leave_ban",
     "supergroup",
-    "supergr_1",
+    "voice",
     "whitelist",
     "msg_checks",
     "me",
@@ -30,7 +30,6 @@ do local _ = {
     "plugins",
     "DENS1",
     "DENS2",
-    "DENS3",
     "addsudo",
     "anti_spam",
     "badword",
