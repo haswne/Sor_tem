@@ -1,4 +1,4 @@
-قـــــنأْةَ ألسـورسَ ✋🏿👇🏻Source channel
+سًــــــٌورس أؤكار
 # [ASD_KARBALA](https://telegram.me/S94IQ)
 
 
