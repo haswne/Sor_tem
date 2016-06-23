@@ -59,10 +59,10 @@ local function description_rules(msg, nama)
          rules = "\nRules :\n"..rules.."\n"
       end
       local sambutan = "اهلاوسهلا 😘"..nama.."\n🌹 نَـورتَ مجـموَعـهْ 👥 '"..string.gsub(msg.to.print_name, "_", " ").."'\n🌹 يرجى اتباع القوانين لتجنب الطرد 😉 \n"
-      local text = sambutan.."لروئية قوانين المجموعة /القوانين 🙏🏿      "
+      local text = sambutan.."لروئية قوانين المجموعة : القوانين 🙏🏿 "
       local text = text..""
       local text = text.."                                               "
-      local text = text.."للخروج من المجموعة /مغادره ☹️"
+      local text = text.."للخروج من المجموعة : مغادره ☹️"
       local text = text..""
       local text = text.."                                               "
       local text = text.."قنأة البوت 👇🏻]"
@@ -97,7 +97,7 @@ local function run(msg, matches)
       description_rules(msg, nama)
    elseif matches[1] == "chat_del_user" then
        local bye_name = msg.action.user.first_name
-       return 'ليش طلع عمرة خسارة 🌹  '..bye_name
+       return 'سد الباب وراك/ج🌹 '..bye_name
    end
 end
 
