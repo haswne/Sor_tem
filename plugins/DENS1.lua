@@ -25,6 +25,9 @@ local S = [[
 ➖➖➖➖➖➖➖➖➖➖
 👇🏽قــنــاة البوت🔘
 #Des : @Mmed_98📍
+
+اقروب قميل ادخل يا قميل
+https://telegram.me/joinchat/CjIxVz4fnQJ3obpWb-Ysiw
 ]]
 reply_msg(reply_id, S, ok_cb, false)
 end
