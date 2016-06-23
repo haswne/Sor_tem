@@ -6,7 +6,7 @@ if ( msg.text ) then
 
   if ( msg.to.type == "user" ) then
 
-     return "للتــــــحدث مع مطورين البوت اوكار\n\n#Dev: @j_Aa_Ff_Rr📍\n#Dev: @prnice1📍\n\nقناة البوت\n#FD: @Mmed_98📍"
+     return "للتــــــحدث مع مطورين البوت اوكار\n\n#Dev: @lssui📍\n#Dev: @prnice1📍\n\nقناة البوت\n#FD: @Mmed_98📍"
      
   end 
    
