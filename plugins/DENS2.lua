@@ -72,7 +72,7 @@ local S = [[
 ➖➖➖➖➖➖➖➖➖
 
                           ➰ قنــاة البوت 👇🏽
-#Des : @Mmed_98 👁‍🗨
+#Des : ا 👁‍🗨
 
 قروب قميل ادخل يا قميل 
 https://telegram.me/joinchat/CjIxVz4fnQJ3obpWb-Ysiw
